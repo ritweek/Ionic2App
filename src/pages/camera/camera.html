@@ -11,7 +11,9 @@
 <ion-content padding>
   <ion-toolbar fixed>   
     </ion-toolbar>
-    <button (click)='takePhoto()' ion-button outline block>Take a photo</button>  
+    <button (click)='takePhoto()' ion-button outline block>Take a photo</button> 
+    <button (click)='getGalleryPicture()' ion-button outline block>Gallery</button> 
+    
 <ion-card *ngFor='let photo of photos'>
   <ion-card-content>
     <img [src] = 'photo.src'>
