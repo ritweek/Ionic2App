@@ -15,7 +15,7 @@ export class CameraPage {
     console.log('Hello From Camera Page');
   }
 
-  photos: Photo[] = [new Photo('https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAOtAAAAJGM3ZDBhODkxLTg1MTMtNGQ1Zi05NjVhLTUzNDkzOTllZTYyYg.jpg', 7), new Photo('https://d13yacurqjgara.cloudfront.net/users/729829/screenshots/3177853/galshir-babushka.gif', 8)]
+  photos: Photo[] = [new Photo('https://d13yacurqjgara.cloudfront.net/users/37530/screenshots/3221768/dancing_milk.gif', 7), new Photo('https://d13yacurqjgara.cloudfront.net/users/729829/screenshots/3177853/galshir-babushka.gif', 8)]
 
 takePhoto(){
   Camera.getPicture({
